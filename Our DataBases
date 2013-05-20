@@ -1,0 +1,16 @@
+its list of our data bases and its tables and coloumns:
+
+1)login_table(user,password,ID)
+
+2)Student_table(name,family_name,math,physics,chemisrey,teology,regularity grade,ID,class_ID)
+
+3)teacher_table(name,family_name,ID(same with login ID),class_ID)
+
+4)class_table(class_name,class_ID)
+
+if you think that they are not enough add your idea to this list (remember put your change in seprate part please)
+
+
+Koosha 
+
+
