@@ -1,0 +1,15 @@
+hi everybody,
+
+this code contain configuration of  database(school_db) and tables(teacher_table,class_table,student_table,login_table)
+
+use these commands in your terminal to configure the code correctly:
+
+mysql -u root -p ---> you will open mysql server on your local host as root
+mysql>create database school_db; --->the database that we use
+mysql>GRANT  GRANT ALL ON school_db.* TO user@localhost IDENTIFIED BY 'password';--> (make an account with 'user' user name 'password' password
+										     on your local host)
+
+ATTENTION:
+dont change the user and password please,
+
+KOOSHA ;) 
