@@ -1,0 +1,9 @@
+#include <QsqlQuery>
+
+QsqlQuery query;
+query.exec("SELECT name , salary , ...  FROM ... WHERE ...");
+while (query.next()) {
+       QString name = query.value(0).toString();
+       int salary = query.value(1).toInt();
+       qDebug() << name << salary;
+                     }
