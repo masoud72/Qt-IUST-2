@@ -14,14 +14,17 @@ SOURCES += main.cpp\
         school.cpp \
     nazem1.cpp \
     nazem2.cpp \
-    nazem3.cpp
+    nazem3.cpp \
+    moalem1.cpp
 
 HEADERS  += school.h \
     nazem2.h \
     nazem1.h \
-    nazem3.h
+    nazem3.h \
+    moalem1.h
 
 FORMS    += school.ui \
     nazem1.ui \
     nazem2.ui \
-    nazem3.ui
+    nazem3.ui \
+    moalem1.ui

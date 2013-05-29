@@ -52,9 +52,9 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>340</y>
-     <width>141</width>
-     <height>31</height>
+     <y>330</y>
+     <width>231</width>
+     <height>41</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -62,6 +62,13 @@
      <widget class="QPushButton" name="pushButton_3">
       <property name="text">
        <string>بازگشت</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>ذخیره</string>
       </property>
      </widget>
     </item>

@@ -34,6 +34,13 @@ void School::on_lineEdit_2_textEdited(const QString &arg1)
 
 void School::on_pushButton_clicked()
 {
-    na1.show();
+// if nazem login
+//    na1.show();
+//    this->close();
+
+// if moalem login
+    Moalem1 *mo;
+    mo = new Moalem1;
+    mo->show();
     this->close();
 }

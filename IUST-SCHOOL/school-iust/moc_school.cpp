@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'school.h'
 **
-** Created: Tue May 28 11:13:35 2013
+** Created: Wed May 29 20:53:09 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!

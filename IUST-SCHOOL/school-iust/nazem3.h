@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "nazem1.h"
+#include "moalem1.h"
 
 namespace Ui {
 class Nazem3;

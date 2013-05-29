@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'nazem3.ui'
 **
-** Created: Tue May 28 11:10:07 2013
+** Created: Wed May 29 20:59:56 2013
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -29,6 +29,7 @@ public:
     QWidget *horizontalLayoutWidget;
     QHBoxLayout *horizontalLayout;
     QPushButton *pushButton_3;
+    QPushButton *pushButton;
 
     void setupUi(QWidget *Nazem3)
     {
@@ -52,7 +53,7 @@ public:
         tableWidget->setGeometry(QRect(45, 70, 441, 221));
         horizontalLayoutWidget = new QWidget(Nazem3);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));
-        horizontalLayoutWidget->setGeometry(QRect(50, 340, 141, 31));
+        horizontalLayoutWidget->setGeometry(QRect(50, 330, 231, 41));
         horizontalLayout = new QHBoxLayout(horizontalLayoutWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
@@ -60,6 +61,11 @@ public:
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
 
         horizontalLayout->addWidget(pushButton_3);
+
+        pushButton = new QPushButton(horizontalLayoutWidget);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+
+        horizontalLayout->addWidget(pushButton);
 
 
         retranslateUi(Nazem3);
@@ -81,6 +87,7 @@ public:
         QTableWidgetItem *___qtablewidgetitem4 = tableWidget->horizontalHeaderItem(4);
         ___qtablewidgetitem4->setText(QApplication::translate("Nazem3", "\331\205\330\271\330\257\331\204", 0, QApplication::UnicodeUTF8));
         pushButton_3->setText(QApplication::translate("Nazem3", "\330\250\330\247\330\262\332\257\330\264\330\252", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("Nazem3", "\330\260\330\256\333\214\330\261\331\207", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };
